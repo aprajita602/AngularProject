@@ -1,0 +1,41 @@
+<h2>Employee List</h2>
+<table class ="table table-striped">
+    <thead>
+        <tr>
+             <th scope="col">First Name</th>
+             <th scope="col">Last Name</th>
+             <th scope="col">Mobile Number</th>
+             <th scope="col">Email Id</th>
+             <th scope="col">Department</th>
+             <th scope="col">Designation</th>
+             <th scope="col">Salary</th>
+             <th scope="col">Base Location</th>
+
+        </tr>
+    </thead>
+    
+      <table><tr *ngFor="let emp of emp1"><td>{{ emp }}</td></tr>
+      </table>
+      
+      <input type="button" value="getEmp1" (click)="getEmp1()">
+      
+      <hr>
+      <table><tr *ngFor="let emp of emp2"><td>{{ emp }}</td></tr>
+      </table>
+      <input type="button" value="getEmp2" (click)="getEmp2()">
+      <hr>
+      <table><tr *ngFor="let emp of emp3"><td>{{ emp }}</td></tr>
+      </table>
+      
+      <input type="button" value="getEmp3" (click)="getEmp3()">
+      <hr>
+      <table><tr *ngFor="let emp of emp4"><td>{{ emp }}</td></tr>
+      </table>
+      
+      <input type="button" value="getEmp4" (click)="getEmp4()">
+      <hr>
+      <table><tr *ngFor="let emp of emp5"><td>{{ emp }}</td></tr>
+      </table>
+      
+      <input type="button" value="getEmp5" (click)="getEmp5()">
+      <hr>
